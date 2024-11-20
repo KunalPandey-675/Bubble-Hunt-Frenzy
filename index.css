@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Titan+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Ensures consistent sizing */
+}
+
+html,
+body {
+    height: 100%;
+    /* Ensures the body spans the full viewport height */
+    margin: 0;
+}
+
+
+#main {
+    width: 100%;
+    height: 100%;
+    /* background-image: linear-gradient(320deg,
+            hsl(250deg 61% 70%) 0%,
+            hsl(249deg 57% 68%) 5%,
+            hsl(249deg 54% 66%) 11%,
+            hsl(249deg 51% 64%) 16%,
+            hsl(248deg 48% 62%) 21%,
+            hsl(248deg 46% 60%) 26%,
+            hsl(247deg 44% 58%) 32%,
+            hsl(247deg 42% 56%) 37%,
+            hsl(246deg 40% 54%) 42%,
+            hsl(245deg 39% 52%) 47%,
+            hsl(245deg 37% 50%) 53%,
+            hsl(244deg 39% 48%) 58%,
+            hsl(243deg 40% 46%) 63%,
+            hsl(242deg 42% 44%) 68%,
+            hsl(241deg 44% 42%) 74%,
+            hsl(240deg 47% 40%) 79%,
+            hsl(238deg 51% 38%) 84%,
+            hsl(236deg 56% 35%) 89%,
+            hsl(234deg 63% 33%) 95%,
+            hsl(231deg 74% 30%) 100%);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #8873ff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    & h1{
+        font-weight: 700;
+        font-family: "Titan One", sans-serif;
+        color: rgb(26, 40, 137);
+    }
+}
+#container{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(212, 207, 255);
+    border-radius: 13px;
+    overflow: hidden;
+}
+#top{
+    padding: 15px;
+    color: white;
+    height: 70px;
+    background-color: rgb(26, 40, 137);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.elem{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.ebox{
+    color: rgb(26, 40, 137);
+    background-color: white;
+    padding: 0px 10px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 20px;
+}
+#bbox{
+    padding: 20px 10px;
+    height: calc(100% - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+.bub{
+    height: 45px;
+    width: 45px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(61, 75, 165);
+    border-radius: 50px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    &:hover{
+        background-color: rgb(26, 40, 137);
+    }
+}
+#start{
+    height: calc(100% - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    & h2{
+        color: rgb(26, 40, 137);
+        font-size: 22px;
+    }
+}
+#stop{
+    display: none;
+    height: calc(100% - 70px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    & h2{
+        color: rgb(26, 40, 137);
+        font-size: 22px;
+    }
+}
+.begin{
+    border: none;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight:700 ;
+    background-color: rgb(61, 75, 165);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    outline: none;
+    &:hover{
+        background-color: rgb(26, 40, 137);
+    }
+}
