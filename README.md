@@ -24,10 +24,12 @@ A fast-paced number-clicking game where you find and pop the target bubbles with
 
 [Watch demo Video](https://github.com/user-attachments/assets/fc8e89dd-32d1-4a0c-a534-0dd1dad5c96d)
 
-
 ---
-## 🚀 Live Demo: 
-- Play the game directly in your browser(only compatible with pc's and laptops): https://bubble-hunt-frenzy.vercel.app/
+## 🌐 Play Now
+ - Try it live in your browser: [Bubble Hunt Frenzy](https://bubble-hunt-frenzy.vercel.app/)
+
+   
+    (offers limited mobile devices functionality)
 ---
 ## 📚 Technologies Used
 1. **HTML5**: Structure of the game.
