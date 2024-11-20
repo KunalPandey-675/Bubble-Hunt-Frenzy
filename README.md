@@ -18,6 +18,12 @@ A fast-paced number-clicking game where you find and pop the target bubbles with
 3. **Score Points**: Earn **10 points** for every correct click.
 4. **Beat the Timer**: Keep scoring until the timer reaches zero.
 5. **Check Your High Score**: See how you performed and try again to improve.
+---
+## 🖼️ Screenshots
+<img width="857" alt="start" src="https://github.com/user-attachments/assets/c938d859-436c-4621-90f2-ab1d30b35129"><img width="817" alt="mid" src="https://github.com/user-attachments/assets/4bdbfb3d-12b8-4a37-a52a-ebbef78c02f4"><img width="806" alt="end" src="https://github.com/user-attachments/assets/f407760c-ab93-4795-be15-dff24f248068">
+
+[Watch demo Video](https://github.com/user-attachments/assets/fc8e89dd-32d1-4a0c-a534-0dd1dad5c96d)
+
 
 ---
 ## 🚀 Live Demo: 
@@ -28,3 +34,5 @@ A fast-paced number-clicking game where you find and pop the target bubbles with
 2. **CSS3**: Styles for the layout and visuals.
 3. **JavaScript**: Core game logic and interactivity.
 ---
+
+
