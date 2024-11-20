@@ -9,7 +9,7 @@ function bubgen() {
     var bubbles = "";
     for (var i = 1; i <= 152; i++) {
         rnum = Math.floor(Math.random() * 20);
-        bubbles += `<div class="bub">${rnum}</div>`;
+        bubbles += `<button class="bub">${rnum}</button>`;
     }
     document.querySelector('#bbox').innerHTML = bubbles;
 }
