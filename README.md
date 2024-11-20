@@ -27,7 +27,7 @@ A fast-paced number-clicking game where you find and pop the target bubbles with
 
 ---
 ## 🚀 Live Demo: 
-- Play the game directly in your browser: 
+- Play the game directly in your browser(only compatible with pc's and laptops): https://bubble-hunt-frenzy.vercel.app/
 ---
 ## 📚 Technologies Used
 1. **HTML5**: Structure of the game.
