@@ -20,8 +20,8 @@ A fast-paced number-clicking game where you find and pop the target bubbles with
 5. **Check Your High Score**: See how you performed and try again to improve.
 
 ---
-## 🚀 Live Demo
-Play the game directly in your browser: 
+## 🚀 Live Demo: 
+- Play the game directly in your browser: 
 ---
 ## 📚 Technologies Used
 1. **HTML5**: Structure of the game.
